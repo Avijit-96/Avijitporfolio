@@ -1,0 +1,577 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media screen and (max-width: 900px)
+{
+}
+@media screen and (min-width: 600px)    
+{
+}
+@media screen and (min-width: 600px) 
+{
+}
+  
+
+
+
+
+
+.main{
+    width:100%;
+    height:700px;
+    background-position:center;
+    background-size: cover;
+    background-image:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(a3.webp);
+
+}
+.navbar{
+width: 1200px;
+height: 75px;
+margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:#ff7200;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'time new roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color:#fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+   
+}
+.content .par{
+padding-left: 20px;
+padding-bottom: 25px;
+font-family: Arial;
+letter-spacing: 1.2px;
+line-height: 30px;
+
+}
+.content h1{
+font-family: 'Times New Roman';
+font-size: 50px;
+padding-left: 20px;
+margin-top: 9%;
+letter-spacing: 2px;
+
+}
+.content .cv{
+    width: 160px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cv a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+.cv:hover{
+    background-color:#ff7200;
+}
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+   
+}
+.Aud{
+    
+    margin-left: 20px;
+   font:color-#ff7200;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0.8)50%,rgba(0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    right:87px;
+    border-radius:10px;
+    padding: 25px;
+    margin-top: 100px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color:  #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background:transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+    font-family: Arial;
+    
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #fff;  
+    border:none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+
+}
+.btnn:hover{
+    background: #ff7200;
+    color: #ff7200; 
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+   
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon ion-icon{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 14px;
+    padding-top: 5px;
+
+}
+.icon ion-icon:hover{
+    color: #ff7200;
+
+}
+.self{
+    background-color: #ff7200;
+    width: 150px;
+    height: 200px;
+    padding:50px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.mypic{
+    margin-right:100px;
+}
+.mypic img{
+    border-radius:20px;
+    width:220px;
+    height:300px;
+}
+/*-----------Trusted section--------*/
+.Trusted{
+   text-align: center;
+   /*background-color: aqua;*/
+   margin-top: 150px;
+}
+.Trusted h2{
+   font-size: 30px;
+}
+
+.Trusted img{
+   background-color: #fff;
+   height: 60px;
+   width: 150px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Trusted:hover img{
+    
+    color: #ff7200;
+}
+
+/*-----------Footer section--------*/
+footer p {
+    margin-top: 0;
+}
+.map{
+  height: 500px;
+  margin-top: 500px;
+  margin-left: 250px;
+}
+iframe{
+    width: 80%;
+    height:400px;
+    filter: invert(100%);
+}
+.cpright h2{
+    text-align: center;
+    height: 100px;
+    padding-top: 100px;
+    margin-left: auto;
+    background-color: #000;
+    color: #06393c;
+
+}
+/*-----------Containersection--------*/
+
+.container {
+    max-width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 100px;
+}
+.container h1{
+    text-align: center;
+    color: #120ee0;
+}
+.container h2{
+    color: #ff7200;
+    font-size: 50px;
+}
+.container h4{
+   
+    font-size:25px;
+}
+/*My fevorit key person*/
+
+.key{
+    margin-top: 250px;
+}
+.key h2{
+    font-size: 30px;
+    text-align: center;
+ }
+ 
+ .key img{
+    background-color: #fff;
+    height: 50px;
+    width: 150px;
+ }
+ .key hover .img{
+     opacity: 0.3;
+     color: #ff7200;
+ }
+
+/*My fevorit key person APJ Abdul Kalam*/
+ .apj {
+    margin-left: 90px;
+    position: relative;
+    width: 24%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.apj h2{
+    text-align: center;
+}
+  
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 500px;
+    height: 300px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 38%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .apj:hover .image {
+    opacity: 0.3;
+  }
+  
+  .apj:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+
+    height: 200px;
+    width: 300px;
+    color: #081d33;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-right: 30px;
+  }
+
+/*My fevorit key person Pichai Sundararajan*/
+.pich{
+    margin-left: 500px;
+    margin-top:-330px;
+    position: relative;
+    width: 300px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.pich h2{
+  text-align: center;
+}
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 500px;
+    height: 300px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .Sundar {
+    height: 500px;
+    width: 500px;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .pich:hover .image {
+    opacity: 0.3;
+  }
+  
+  .pich:hover .Sundar {
+    opacity: 1;
+  }
+  
+  .txt {
+
+    height: 200px;
+    width: 300px;
+    color: #081d33;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-left: 90px;
+ }
+/*My fevorit key person Elon Musk*/
+.elon{
+    margin-left: 900px;
+    margin-top:-330px;
+    position: relative;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.elon h2{
+    text-align: center;
+  }
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 500px;
+    height: 300px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .mask {
+    height: 500px;
+    width: 500px;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .elon:hover .image {
+    opacity: 0.3;
+  }
+  
+  .elon:hover .mask {
+    opacity: 1;
+  }
+  
+  .txtx{
+
+    height: 200px;
+    width: 300px;
+    color: #081d33;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-left: 90px;
+ }
+/*My fevorit key person Elon Musk*/
+
+.Calculator{
+    border-radius: 12px;
+    max-width: 300px;
+    width:100%;
+    height: 400px;
+    padding: 10px 20px 20px;
+    background: #282727;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    margin-left: 150px;
+    margin-top: 250px;
+    
+}
+.Calculator h2{
+    text-align: center;
+    color:#EEE;
+    padding-bottom:20px;
+}
+
+#inputbox{
+height: 80px;
+width: 100%;
+outline: none;
+border: none;
+text-align: right;
+margin-bottom: 10px;
+font-size: 25px;
+color: #000e1a;
+pointer-events: none;
+}
+
+.buttons{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons button{
+    padding:10px;
+    border-radius:20px;
+    border: none;
+    font-size: 20px;
+    background-color: #EEE;
+    cursor: pointer;
+}
+.buttons button :active{
+    transform: scale(0.99);
+}

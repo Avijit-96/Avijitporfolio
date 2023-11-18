@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+
+.AA h1{
+    text-align: center;
+    color: rgb(6, 2, 29);
+}
+
+.a1{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.a1 img {
+    border: 5px solid #555;
+}
+
+.b2{
+    margin-left: 700px;
+    margin-top:-700px;
+}
+.b2 img {
+    border: 5px solid #555;
+}
+
+.c3{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.c3 img {
+    border: 5px solid #555;
+}
+
+.d4{
+    margin-left: 700px;
+    margin-top:-700px;
+}
+.d4 img {
+    border: 5px solid #555;
+}
